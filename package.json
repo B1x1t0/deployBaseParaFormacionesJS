@@ -1,0 +1,19 @@
+{
+  "name": "formaciones-js",
+  "version": "1.0.0",
+  "description": "deploy base para las formaciones js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-watch app.js"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Inmaculada Peinado Díaz",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-watch": "^2.0.6"
+  }
+}
