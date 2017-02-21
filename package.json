@@ -4,8 +4,9 @@
   "description": "deploy base para las formaciones js",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel-watch app.js"
+    "test": "mocha src/spec/**/*.spec.js",
+    "start": "babel-watch src/app.js",
+    "tdd": "mocha --watch src/spec/**/*.spec.js"
   },
   "keywords": [
     "js"
@@ -14,6 +15,10 @@
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.22.1",
-    "babel-watch": "^2.0.6"
-  }
+    "babel-watch": "^2.0.6",
+    "chai": "^3.5.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {}
 }
