@@ -4,15 +4,18 @@
   "description": "deploy base para las formaciones js",
   "main": "app.js",
   "scripts": {
-    "test": "mocha src/spec/**/*.spec.js",
     "start": "babel-watch src/app.js",
-    "tdd": "mocha --watch src/spec/**/*.spec.js"
+    "test": "mocha --opts ./mocha.otps",
+    "tdd": "mocha --watch --opts ./mocha.opts"
   },
   "keywords": [
     "js"
   ],
   "author": "Inmaculada Peinado Díaz",
-  "license": "ISC",
+  "contributors": [
+     "d.T.b"        
+    ],
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.22.1",
     "babel-watch": "^2.0.6",
