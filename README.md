@@ -9,7 +9,7 @@ You can use chai, mocha, and expect.js expectations.
 
 ##### 2. Available commands
 
-* *npm start* : run your ./src/app.js node console app
+* *npm start* : run your ./src/app.js node console app and waits for changes
 * *npm test* : launch tests once
 * *npm run tdd* : laung tests and watches changes for relaunch. Ctrl-C to stop it.
 

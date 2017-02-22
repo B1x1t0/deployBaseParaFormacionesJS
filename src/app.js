@@ -11,3 +11,5 @@ App.prototype = {
 }
 
 module.exports = App;
+
+console.log('Refactor me');
