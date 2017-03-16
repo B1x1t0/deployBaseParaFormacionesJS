@@ -1,5 +1,7 @@
 'use strict';
 
+import myFunct from './my.module';
+
 const App = function () {
         this.test = 'Testable variable';
 };
@@ -13,3 +15,5 @@ App.prototype = {
 module.exports = App;
 
 console.log('Refactor me');
+
+myFunct();

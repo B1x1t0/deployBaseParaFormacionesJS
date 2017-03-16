@@ -13,11 +13,13 @@
   ],
   "author": "Inmaculada Peinado Díaz",
   "contributors": [
-     "d.T.b"        
-    ],
+    "d.T.b"
+  ],
   "license": "MIT",
   "devDependencies": {
+    "babel-cli": "^6.24.0",
     "babel-core": "^6.22.1",
+    "babel-preset-latest": "^6.24.0",
     "babel-watch": "^2.0.6",
     "chai": "^3.5.0",
     "expect.js": "^0.3.1",
